@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-express",
+  "scripts": {
+    "dev": "nodemon ./server/server.js",
+    "build": "nuxt build -a"
+  },
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "ajv-keywords": "^3.2.0",
+    "axios": "^0.18.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "debugs": "^1.0.11",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mysql2": "^1.5.3",
+    "nuxt": "^1.4.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.37.7"
+  },
+  "devDependencies": {
+    
+  },
+  "debugs": [
+    "auth",
+    "server",
+    "passport",
+    "utils",
+    "server"
+  ]
+}

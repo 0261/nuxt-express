@@ -1,0 +1,14 @@
+.page-enter-active,
+.page-leave-active {
+    transition: opacity .5s;
+}
+
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
+/* CSS설정 
+ * 기본 transition 이름은 page이다.
+ * 위 설정은 페이지마다 들어갈 경우 첫 설정은 opacity가 0, 나갈 때 설정이 opacitiy 0;
+ * 들어갈 때 활성화하고 나갈 때 활성화할 animaition을 transition: opacity .5s로 설정한다.
+ */
